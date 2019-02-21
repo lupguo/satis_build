@@ -1,0 +1,25 @@
+{
+    "name": "repository/mirror",
+    "homepage": "http://10.40.2.181:8889/mirror",
+    "require": {
+        "repository/mirror-pkgs": "^0.1.0"
+    },
+    "require-all": false,
+    "require-dependencies": true,
+    "require-dev-dependencies": true,
+    "output-dir": "/data/www/composer-pkg/mirror",
+    "output-html": true,
+    "minimum-stability": "RC",
+    "archive": {
+        "directory": "dist",
+        "format": "zip",
+        "prefix-url": "http://10.40.2.181:8889/mirror",
+        "skip-dev": true
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:account/composer-packages/repository-mirror-pkgs.git"
+        }
+    ]
+}

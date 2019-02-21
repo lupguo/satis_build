@@ -1,0 +1,21 @@
+{
+    "name": "repository/inner",
+    "homepage": "http://10.40.2.181:8889/inner",
+    "output-dir": "/data/www/composer-pkg/inner",
+    "output-html": true,
+    "archive": {
+        "directory": "dist",
+        "format": "zip",
+        "prefix-url": "http://10.40.2.181:8889/inner",
+        "skip-dev": true
+    },
+    "minimum-stability": "beta",
+    "require-all": true,
+    "require-dependencies": false,
+    "require-dev-dependencies": false,
+    "repositories": [
+        {
+            "packagist.org": false
+        }
+    ]
+}
